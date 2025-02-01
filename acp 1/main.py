@@ -22,34 +22,37 @@ print(number_string_float, "type:", type(number_string_float))
 
 num1 =4
 num2 =3
-num3 =5
-
+num3 =36
+num4= 99
 
 print("Addition:", num1 + num2)
-print("Subtraction:", num1 - num2)
-print("Multiplication:", num1 * num3)
+print("Multiplication:", num1 * num2)
+print("Subtraction:", num1 - num4)
+print("Multiplication:", num3 * num3)
 print("Division:", num1 / num2)
-print("Floor division:", num1 // num2)
+print("Floor division:", num4 // num2)
+print("Square root:", num1 ** num3)
 print("Modulus:", num1 % num2)
 print("Exponential:", num1 ** num2)
 print("Square root:", num1 ** num3)
 
+
 print(num1 == num2)
 
 firstName = "jasdheer"
-lastName = "bhaiya"
+lastName = "singh"
 print(firstName + " " + lastName)
 
 text ="python"
-print(text * 3)
+print(text * 7)
 
-word = "codingisaweb"
+word = "mynameisjasdheer"
 print("length of a string:", len(word))
 print("First letter:", word[0])
 print("last letter:", word[5])
 print("last letter:", word[-1])
 print("First 3 letter:", word[0:4])
 print("last 3 letter:", word[3:6])
-print("Get odi:", word[1:8])
+print("Get myna:", word[1:4])
 
 
